@@ -1,0 +1,69 @@
+/* frontend/src/styles/ViewBalance.css */
+
+.balance-container {
+  min-height: 100vh;
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.balance-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.balance-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1f2937; /* Tailwind gray-800 */
+}
+
+.balance-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.balance-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.balance-button {
+  background-color: #2563eb; /* Tailwind blue-600 */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.balance-button:hover {
+  background-color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+.balance-success {
+  margin-top: 15px;
+  color: #059669; /* Tailwind green-600 */
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.balance-error {
+  margin-top: 15px;
+  color: #dc2626; /* Tailwind red-600 */
+  font-size: 0.95rem;
+}

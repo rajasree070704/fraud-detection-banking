@@ -1,0 +1,60 @@
+/* src/styles/TransactionForm.css */
+.transaction-container {
+  min-height: 100vh;
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.transaction-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.transaction-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transaction-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.connect-button,
+.submit-button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover,
+.submit-button:hover {
+  background-color: #4338ca;
+}
+
+.transaction-message {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: green;
+}
